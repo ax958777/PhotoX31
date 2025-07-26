@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E07E02E35821A00D45B05 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07DF2E35821A00D45B05 /* Stripe */; };
+		040E07E22E35821A00D45B05 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07E12E35821A00D45B05 /* StripeApplePay */; };
+		040E07E42E35821A00D45B05 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07E32E35821A00D45B05 /* StripeCardScan */; };
+		040E07E62E35821A00D45B05 /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07E52E35821A00D45B05 /* StripeConnect */; };
+		040E07E82E35821A00D45B05 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07E72E35821A00D45B05 /* StripeFinancialConnections */; };
+		040E07EA2E35822700D45B05 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07E92E35822700D45B05 /* StripePayments */; };
+		040E07EC2E35822700D45B05 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07EB2E35822700D45B05 /* StripePaymentSheet */; };
+		040E07EE2E35822700D45B05 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 040E07ED2E35822700D45B05 /* StripePaymentsUI */; };
+		0447C3BE2E3418F100B58EC8 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0447C3BD2E3418F100B58EC8 /* Supabase */; };
+		04D44F042E0848EB0085F127 /* Clerk in Frameworks */ = {isa = PBXBuildFile; productRef = 04D44F032E0848EB0085F127 /* Clerk */; };
+		04F29B292E34114100C5642F /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 04F29B282E34114100C5642F /* Auth */; };
+		04F29B2B2E34114100C5642F /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 04F29B2A2E34114100C5642F /* Functions */; };
+		04F29B2D2E34114100C5642F /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 04F29B2C2E34114100C5642F /* PostgREST */; };
+		04F29B2F2E34114100C5642F /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 04F29B2E2E34114100C5642F /* Realtime */; };
+		04F29B312E34114100C5642F /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 04F29B302E34114100C5642F /* Storage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04D44EF32E0848A20085F127 /* Photox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04D44EF52E0848A20085F127 /* Photox */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Photox;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D44EF02E0848A20085F127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0447C3BE2E3418F100B58EC8 /* Supabase in Frameworks */,
+				040E07E82E35821A00D45B05 /* StripeFinancialConnections in Frameworks */,
+				04F29B312E34114100C5642F /* Storage in Frameworks */,
+				040E07EE2E35822700D45B05 /* StripePaymentsUI in Frameworks */,
+				040E07E62E35821A00D45B05 /* StripeConnect in Frameworks */,
+				040E07EC2E35822700D45B05 /* StripePaymentSheet in Frameworks */,
+				04F29B2D2E34114100C5642F /* PostgREST in Frameworks */,
+				040E07E22E35821A00D45B05 /* StripeApplePay in Frameworks */,
+				04F29B2B2E34114100C5642F /* Functions in Frameworks */,
+				04F29B292E34114100C5642F /* Auth in Frameworks */,
+				040E07E02E35821A00D45B05 /* Stripe in Frameworks */,
+				04F29B2F2E34114100C5642F /* Realtime in Frameworks */,
+				040E07E42E35821A00D45B05 /* StripeCardScan in Frameworks */,
+				040E07EA2E35822700D45B05 /* StripePayments in Frameworks */,
+				04D44F042E0848EB0085F127 /* Clerk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0447C3BC2E3418F100B58EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04D44EEA2E0848A20085F127 = {
+			isa = PBXGroup;
+			children = (
+				04D44EF52E0848A20085F127 /* Photox */,
+				0447C3BC2E3418F100B58EC8 /* Frameworks */,
+				04D44EF42E0848A20085F127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D44EF42E0848A20085F127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D44EF32E0848A20085F127 /* Photox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D44EF22E0848A20085F127 /* Photox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D44EFF2E0848A30085F127 /* Build configuration list for PBXNativeTarget "Photox" */;
+			buildPhases = (
+				04D44EEF2E0848A20085F127 /* Sources */,
+				04D44EF02E0848A20085F127 /* Frameworks */,
+				04D44EF12E0848A20085F127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04D44EF52E0848A20085F127 /* Photox */,
+			);
+			name = Photox;
+			packageProductDependencies = (
+				04D44F032E0848EB0085F127 /* Clerk */,
+				04F29B282E34114100C5642F /* Auth */,
+				04F29B2A2E34114100C5642F /* Functions */,
+				04F29B2C2E34114100C5642F /* PostgREST */,
+				04F29B2E2E34114100C5642F /* Realtime */,
+				04F29B302E34114100C5642F /* Storage */,
+				0447C3BD2E3418F100B58EC8 /* Supabase */,
+				040E07DF2E35821A00D45B05 /* Stripe */,
+				040E07E12E35821A00D45B05 /* StripeApplePay */,
+				040E07E32E35821A00D45B05 /* StripeCardScan */,
+				040E07E52E35821A00D45B05 /* StripeConnect */,
+				040E07E72E35821A00D45B05 /* StripeFinancialConnections */,
+				040E07E92E35822700D45B05 /* StripePayments */,
+				040E07EB2E35822700D45B05 /* StripePaymentSheet */,
+				040E07ED2E35822700D45B05 /* StripePaymentsUI */,
+			);
+			productName = ClerkiOS;
+			productReference = 04D44EF32E0848A20085F127 /* Photox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D44EEB2E0848A20085F127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					04D44EF22E0848A20085F127 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 04D44EEE2E0848A20085F127 /* Build configuration list for PBXProject "Photox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D44EEA2E0848A20085F127;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04D44F022E0848EB0085F127 /* XCRemoteSwiftPackageReference "clerk-ios" */,
+				04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04D44EF42E0848A20085F127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D44EF22E0848A20085F127 /* Photox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D44EF12E0848A20085F127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D44EEF2E0848A20085F127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04D44EFD2E0848A30085F127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D44EFE2E0848A30085F127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04D44F002E0848A30085F127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Photox/ClerkiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 233WA8LL5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AX.Photox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		04D44F012E0848A30085F127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Photox/ClerkiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 233WA8LL5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AX.Photox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D44EEE2E0848A20085F127 /* Build configuration list for PBXProject "Photox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D44EFD2E0848A30085F127 /* Debug */,
+				04D44EFE2E0848A30085F127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D44EFF2E0848A30085F127 /* Build configuration list for PBXNativeTarget "Photox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D44F002E0848A30085F127 /* Debug */,
+				04D44F012E0848A30085F127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = exactVersion;
+				version = 24.7.0;
+			};
+		};
+		04D44F022E0848EB0085F127 /* XCRemoteSwiftPackageReference "clerk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/clerk/clerk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.58.0;
+			};
+		};
+		04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		040E07DF2E35821A00D45B05 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		040E07E12E35821A00D45B05 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		040E07E32E35821A00D45B05 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		040E07E52E35821A00D45B05 /* StripeConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeConnect;
+		};
+		040E07E72E35821A00D45B05 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeFinancialConnections;
+		};
+		040E07E92E35822700D45B05 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePayments;
+		};
+		040E07EB2E35822700D45B05 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+		040E07ED2E35822700D45B05 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040E07DE2E35821A00D45B05 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
+		};
+		0447C3BD2E3418F100B58EC8 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		04D44F032E0848EB0085F127 /* Clerk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D44F022E0848EB0085F127 /* XCRemoteSwiftPackageReference "clerk-ios" */;
+			productName = Clerk;
+		};
+		04F29B282E34114100C5642F /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		04F29B2A2E34114100C5642F /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		04F29B2C2E34114100C5642F /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		04F29B2E2E34114100C5642F /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		04F29B302E34114100C5642F /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F29B272E34114100C5642F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04D44EEB2E0848A20085F127 /* Project object */;
+}

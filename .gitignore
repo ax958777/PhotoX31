@@ -1,0 +1,25 @@
+/.DS_Store
+# Logs
+logs
+*.log
+Web/npm-debug.log*
+Web/yarn-debug.log*
+Web/yarn-error.log*
+Web/pnpm-debug.log*
+Web/lerna-debug.log*
+
+Web/node_modules
+Web/dist
+Web/dist-ssr
+Web/*.local
+
+# Editor directories and files
+Web/.vscode/*
+Web/!.vscode/extensions.json
+Web/.idea
+Web/.DS_Store
+Web/*.suo
+Web/*.ntvs*
+Web/*.njsproj
+Web/*.sln
+Web/*.sw?

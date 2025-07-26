@@ -1,0 +1,81 @@
+
+project_id = "d5bf1402-9fe9-49bb-95d0-aa0d14537d3b"
+
+[auth.third_party.clerk]
+enabled = true
+domain = "https://wired-whale-74.clerk.accounts.dev" # Replace with your Clerk domain, e.g., "example.clerk.accounts.dev"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[auth]
+enabled = true
+port = 54324
+site_url = "http://127.0.0.1:3000"
+additional_redirect_urls = ["https://127.0.0.1:3000"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_manual_linking = false
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = false
+
+[db]
+port = 54322
+
+[db.pooler]
+enabled = false
+port = 54329
+pool_mode = "transaction"
+default_pool_size = 20
+max_client_conn = 100
+
+[realtime]
+enabled = true
+port = 54323
+ip_version = "ipv4"
+
+[storage]
+enabled = true
+port = 54324
+file_size_limit = "50MiB"
+s3_max_path_length = 5000
+
+[edge_runtime]
+enabled = true
+port = 54325
+ip_version = "ipv4"
+
+[analytics]
+enabled = false
+port = 54327
+vector_port = 54328
+backend = "postgres"
+
+[functions.clerk-webhook]
+verify_jwt = false
+
+[functions.generate-image]
+verify_jwt = false
+
+[functions.sync-user-profile]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = false
+
+[functions.create-checkout]
+verify_jwt = false
+
+[functions.customer-portal]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
